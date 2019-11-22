@@ -47,9 +47,8 @@ lines(x=gamescoreuw$time,y=gamescoreuw$score)
 
 # PROBLEM NUMBER 2
 
-# Preset amount and guess to zero
+# Preset amount to zero
 amount <- 0
-guess <- 0
 
 # Generate a random number
 number <- sample(1:100, 1)
